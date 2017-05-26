@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FakeVisualStudioWpf"
         mc:Ignorable="d"
-        Title="MainWIndow" Height="101.51" Width="337.393">
+        Title="MainWIndow" Height="101.51" Width="337.393" Closing="Window_Closing">
     <Grid Height="60" VerticalAlignment="Top">
         <TextBox x:Name="UpdateTitle" HorizontalAlignment="Left" Margin="10,5,0,0" TextWrapping="Wrap" Text="Visual Studio Enterprise 2017" Width="298" Height="23" VerticalAlignment="Top" />
         <Button x:Name="Update" Content="Update Title" HorizontalAlignment="Left" Margin="233,37,0,0" VerticalAlignment="Top" Width="75" Click="Update_Click" IsDefault="True"/>
